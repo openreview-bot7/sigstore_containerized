@@ -57,4 +57,4 @@ RUN git clone https://github.com/openreview-bot7/fulcio-Div.git
 EXPOSE 5000
 
 # Start Fulcio CA
-CMD ["fulcio", "serve", "--config-path=/root/fulcio-config/config.json", "--ca=fileca", "--fileca-cert=/shared-fulcio-config/fulcio-root.pem", "--fileca-key=/shared-fulcio-config/file_ca_key.pem", "--fileca-key-passwd=p6ssw0rd", "--ct-log-url=http://sigstore-ctlog:6105/sigstore", "--host=0.0.0.0", "--port=5000"]
+# CMD ["fulcio", "serve", "--config-path=/root/fulcio-config/config.json", "--ca=fileca", "--fileca-cert=/shared-fulcio-config/fulcio-root.pem", "--fileca-key=/shared-fulcio-config/file_ca_key.pem", "--fileca-key-passwd=p6ssw0rd", "--ct-log-url=http://sigstore-ctlog:6105/sigstore", "--host=0.0.0.0", "--port=5000"]
